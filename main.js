@@ -16,7 +16,7 @@ $('#btn').click(function(){
     }
     else {
     $.ajax({
-        url:"https://api.nasa.gov/planetary/apod",
+        url:"Insert KEy",
         method:'GET',
         success : displayImage,
         data : {

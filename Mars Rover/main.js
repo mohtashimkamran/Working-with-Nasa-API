@@ -27,7 +27,7 @@ $('#btn').click(function(){
         method : 'GET',
         success : displayImage,
         data : {
-            api_key : "UnsTs4Kq8fdJUO3goioG22Ua0EcOIimZSmx7YBqg",
+            api_key : "Insert Key",
             sol:sol.val(),
             page:pageno,
         },
@@ -46,7 +46,7 @@ next.click(function(){
         method : 'GET',
         success : displayImage,
         data : {
-            api_key : "UnsTs4Kq8fdJUO3goioG22Ua0EcOIimZSmx7YBqg",
+            api_key : "Insert Key",
             sol:sol.val(),
             page:pageno,
         },
@@ -64,7 +64,7 @@ prev.click(function(){
         method : 'GET',
         success : displayImage,
         data : {
-            api_key : "UnsTs4Kq8fdJUO3goioG22Ua0EcOIimZSmx7YBqg",
+            api_key : "Insert Key",
             sol:sol.val(),
             page:pageno,
         },
