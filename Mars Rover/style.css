@@ -1,0 +1,68 @@
+#image-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#image-container img{
+    width: 12rem;
+    height:12rem;
+    padding: 0.6em;
+}
+.changepage{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 2rem;
+    background-image: linear-gradient(to right ,orange,purple,blue);
+}
+.changepage button{
+    width: 12rem;
+    height: 2rem;
+    font-size: 1em;
+    background-color: azure;
+}
+
+.btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 2rem;
+    background-image: linear-gradient(to right ,skyblue,pink,lightblue);
+
+}
+.btns input{
+    width: 14rem;
+    height: 2rem;
+    font-size: 1em;
+    background-color: azure;
+    text-align: center;
+}
+.btns button{
+    width: 12rem;
+    height: 2rem;
+    font-size: 1em;
+    background-color: azure;
+}
+
+
+@media screen and (max-width:400px) {
+    #image-container img{
+        width: 20rem;
+        height:15rem;
+        padding: 1em;
+    }
+    .btns{
+        justify-content: space-between;
+    }
+    .btns input{
+        width: 5rem;
+        font-size: 10px;
+        font-weight: 900;
+    }
+    .btns button{
+        width: 5rem;
+        font-weight: 600;
+        height: 2.3rem;
+    }
+}

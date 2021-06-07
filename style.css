@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+}
+#image-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 1em;
+}
+#image-container img{
+    width: 60vh;
+    height: 53vh;
+    padding: 1rem;
+}
+#image-container img:hover{
+    transform: scale(1.15);
+    border-radius: 50px;
+}
+
+.date-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 4em;
+    background-image: linear-gradient(to right, rgb(111, 188, 214),rgb(212, 140, 140),rgb(97, 204, 240));
+}
+.date-container input{
+    width: 12rem;
+    height: 2rem;
+    font-size: 1.2rem;
+    background-color: azure;
+}
+.date-container button{
+    font-size: 1.2rem;
+    width: 12rem;
+    background-color: azure;
+}
+
+@media screen and (max-width:400px) {
+    #image-container img{
+        width: 44vh;
+        height: 40vh;
+    }
+}
